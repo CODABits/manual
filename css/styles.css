@@ -304,7 +304,7 @@ object-fit: contain;
     right: 20px; /* Ajusta la posición desde el borde derecho */
     width: 50px; /* Tamaño del botón */
     height: 50px; /* Tamaño del botón */
-    background-color: #e68413; /* Color del botón */
+    background-color: #ff6600; /* Color del botón */
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -395,4 +395,45 @@ object-fit: contain;
     transition: background-color 0.3s ease;
     display: block; /* Hace que el botón ocupe todo el ancho disponible */
     margin: 20px auto 0; /* Centra el botón horizontalmente y agrega espacio arriba */
+}
+
+
+h1.bold-text {
+    font-family: 'Segoe Script', cursive;
+    color: #003366;
+    font-weight: 900; /* o 'bold' si prefieres */
+}
+
+.text-box1 {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo blanco con opacidad para ver el fondo de la página */
+    color: #000000; /* Color de texto negro para buen contraste */
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Borde negro con alta transparencia */
+    border-radius: 10px; /* Bordes redondeados para un diseño moderno */
+    padding: 20px; /* Espacio interior */
+    max-width: 60%; /* Máximo ancho para adaptarse a diferentes pantallas */
+    margin: 20px auto; /* Centra el contenedor horizontalmente con margen superior e inferior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para un efecto elevado */
+    text-align: center; /* Centra el texto dentro del contenedor */
+   
+    line-height: 1.6; /* Espacio entre líneas para mejorar la legibilidad */
+}
+.text-box1 .segoe-script {
+    font-family: 'Segoe Script', cursive;  /* Fuente específica para títulos */
+    font-size: 26px;
+    color: whitesmoke;
+}
+
+.text-box1 .arial-text {
+    font-family: Arial, sans-serif; /* Fuente Arial para el texto normal */
+    font-size: 16px; /* Tamaño de fuente para el texto normal */
+    color: whitesmoke; /* Color del texto */
+}
+
+.segoe-script {
+    font-family: 'Segoe Script', cursive;
+}
+
+.center-image-container img {
+    max-width: 40%; /* Ajusta la imagen para que no se desborde */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
