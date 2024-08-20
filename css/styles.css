@@ -6,9 +6,9 @@ html, body {
 }
 
 body {
+    cursor: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="32" height="32"%3E%3Ctext x="0" y="24" font-size="24"%3E%F0%9F%9A%80%3C/text%3E%3C/svg%3E'), auto;
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #a8e063, #56ab2f); /* Fondo degradado verde claro a verde oscuro */
-
     color: #fff;
     display: flex;
     flex-direction: column;
